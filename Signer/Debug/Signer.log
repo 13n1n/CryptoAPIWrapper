@@ -1,0 +1,36 @@
+﻿Build started 4/22/2015 11:21:32 PM.
+     1>Project "C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Signer\Signer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Signer.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Signer.cpp
+         Signer.cpp
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(16): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(575) : see declaration of 'wcstombs'
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(24): warning C4244: '=' : conversion from 'std::streamoff' to 'DWORD', possible loss of data
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(37): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(1078) : see declaration of 'wcstok'
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(38): warning C4996: 'wcstok': This function or variable may be unsafe. Consider using wcstok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(1078) : see declaration of 'wcstok'
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(31): warning C4101: 'Decoded' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(105): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(197): warning C4101: 'msgPara' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(263): warning C4101: 'SignedMsgEncodeInfo' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(257): warning C4101: 'pSignerCert' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(255): warning C4101: 'hCryptProv' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(266): warning C4101: 'hMsg' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(262): warning C4101: 'SignerCertBlobArray' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(256): warning C4101: 'hStoreHandle' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(265): warning C4101: 'pbEncodedBlob' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(261): warning C4101: 'SignerCertBlob' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(267): warning C4101: 'dwKeySpec' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(259): warning C4101: 'SignerEncodeInfo' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(264): warning C4101: 'cbEncodedBlob' : unreferenced local variable
+     1>c:\users\yuriy\dropbox\университет\7 семестр\сергеев\signer\signer\signer.cpp(260): warning C4101: 'SignerEncodeInfoArray' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Debug\Signer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Debug\Signer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Debug\Signer.lib" /MACHINE:X86 Debug\Signer.obj
+         Debug\stdafx.obj
+         Signer.vcxproj -> C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Debug\Signer.exe
+     1>Done Building Project "C:\Users\yuriy\Dropbox\Университет\7 семестр\Сергеев\Signer\Signer\Signer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98
